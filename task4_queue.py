@@ -69,7 +69,7 @@ class bankSystem:
         self.serviceQueue = Queue()
         self.nowNum = 0
         # self.windows = k  # 银行柜台数目
-        self.maxSize = 100
+        self.maxSize = 1000000
 
     def getNumber(self):
         if self.nowNum < self.maxSize:
